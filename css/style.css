@@ -1,0 +1,34 @@
+.tags
+{
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.tags .tag
+{
+    width: auto;
+    margin: 5px 5px;
+    background-color: teal;
+    color: white;
+    padding: 3px 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 1s linear;
+}
+.tags .tag i
+{
+    margin-left: 5px;
+    font-size: 0.9rem; /* 1em - 16px*/
+}
+.tags #tag_input
+{
+    border: none;
+    outline: transparent;
+    margin-left: 10px;
+}
+.deleted{
+    /* animation: removeTag 1s linear forwards;  */
+}
+
